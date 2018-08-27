@@ -1,9 +1,11 @@
 package main
 
 import (
-	"fmt"
+	"fmt"	
+        "github.com/vhemacademy/stringutils"
 )
 
 func main() {
-	fmt.Println("Hello, Cool World")
+	fmt.Println(stringutils.Upper("Hello, Cool World"))	
+        fmt.Println(stringutils.Lower("Hello, Cool World"))
 }
